@@ -32,7 +32,6 @@ class HistoryList : AppCompatActivity() {
 
     private fun initViews() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = "Create a portal"
 
         rvGames.adapter = gameAdapter
         rvGames.layoutManager = LinearLayoutManager(this@HistoryList, RecyclerView.VERTICAL, false)

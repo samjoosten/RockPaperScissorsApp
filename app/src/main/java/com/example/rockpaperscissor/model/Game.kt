@@ -1,12 +1,8 @@
 package com.example.rockpaperscissor.model
 
-import android.media.AsyncPlayer
-import android.os.Parcelable
-import androidx.annotation.DrawableRes
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.rockpaperscissor.Action
 import java.util.*
 
 

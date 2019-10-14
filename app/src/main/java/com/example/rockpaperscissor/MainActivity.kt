@@ -1,12 +1,12 @@
 package com.example.rockpaperscissor
 
 import android.content.Intent
-import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import com.example.rockpaperscissor.database.GameRepository
+import com.example.rockpaperscissor.model.Action
 import com.example.rockpaperscissor.model.Game
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*

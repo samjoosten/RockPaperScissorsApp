@@ -1,6 +1,6 @@
-package com.example.rockpaperscissor
+package com.example.rockpaperscissor.model
 
-import androidx.annotation.DrawableRes
+import com.example.rockpaperscissor.R
 
 enum class Action(val value: Int, val drawableResId: Int) {
     Rock(0, R.drawable.rock),

@@ -1,6 +1,7 @@
 package com.example.rockpaperscissor
 
 import androidx.room.TypeConverter
+import com.example.rockpaperscissor.model.Action
 import java.util.*
 
 class Converter {
